@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="showHide.js"></script>
+    <title>Frontend Mentor | Multi-step form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <p class="circles">1</p>
+        <div class="step">
+          <h4>STEP 1</h4>
+          <p>YOUR INFO</p>
+        </div>
+        <p class="circles">2</p>
+        <div class="step">
+          <h4>STEP 2</h4>
+          <p>SELECT PLAN</p>
+        </div>
+        <p class="circles">3</p>
+        <div class="step">
+          <h4>STEP 3</h4>
+          <p>ADD-ONS</p>
+        </div>
+        <p class="circles">4</p>
+        <div class="step">
+          <h4>STEP 4</h4>
+          <p>SUMMARY</p>
+        </div>
+      </div>
+      <div class="step1">
+        <div class="header">
+          <h1>Personal Info</h1>
+          <p>Please provide your name, email address, and phone number.</p>
+        </div>
+
+        <div class="data">
+          <p>Name</p>
+          <input type="text" name="Name" />
+          <p>Email Address</p>
+          <input type="text" name="Email Address" />
+          <p>Phone Number</p>
+          <input
+            type="text"
+            class="placeholder"
+            placeholder="e.g. +1 234 567 890"
+          />
+          <br />
+        </div>
+      </div>
+      <button class="nextButton">Next Step</button>
+      <div class="step2">
+        <h1>Select your plan</h1>
+        <p>You have the option of monthly or yearly billing.</p>
+        <div class="boxes">
+          <div class="box1">
+            <img src="./assets/images/icon-arcade.svg" alt="" srcset="" />
+            <h3>Arcade</h3>
+            <h6>$9/mo</h6>
+          </div>
+          <div class="box2">
+            <img src="./assets/images/icon-advanced.svg" alt="" srcset="" />
+            <h3>Advanced</h3>
+            <h6>$12/mo</h6>
+          </div>
+          <div class="box3">
+            <img src="./assets/images/icon-pro.svg" alt="" srcset="" />
+            <h3>Pro</h3>
+            <h6>$15/mo</h6>
+          </div>
+        </div>
+        <!-- scroll button here -->
+        <div class="scroll">
+          <p>Monthly</p>
+          <button type="submit"></button>
+          <p>Yearly</p>
+        </div>
+        <div class="dugmad">
+          <button class="backButton">Go Back</button>
+        </div>
+      </div>
+    </div>
+    <!-- Sidebar end -->
+
+    <!-- Step 1 start -->
+  </body>
+</html>

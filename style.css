@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+body {
+  background-color: rgb(205, 236, 255);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  background-color: white;
+  padding: 10px;
+  align-items: center;
+  width: 50%;
+  margin-left: 400px;
+  margin-top: 180px;
+  border-radius: 7px;
+  position: relative;
+}
+
+.circles {
+  border: hsl(217, 100%, 97%) 1px solid;
+  border-radius: 50%;
+  color: hsl(217, 100%, 97%);
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+}
+
+.sidebar {
+  background-image: url(/assets/images/bg-sidebar-desktop.svg);
+  width: 14rem;
+  height: 30rem;
+  border-radius: 8px;
+  text-align: center;
+  color: hsl(217, 100%, 97%);
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+.sidebar h4 {
+  color: hsl(231, 11%, 63%);
+}
+.step {
+  font-size: 1rem;
+  padding-top: 4px;
+  padding-top: 2px;
+  text-align: start;
+  padding-left: 4.5rem;
+}
+
+.step h4 {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.step p {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 0.9rem;
+}
+
+.step1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  position: absolute;
+  top: 2rem;
+  left: 22rem;
+}
+
+.step1 h1 {
+  color: hsl(213, 96%, 18%);
+  margin-bottom: 0;
+}
+.step1 p {
+  color: hsl(231, 11%, 63%);
+  padding-top: px;
+}
+.header {
+  margin: 0;
+  padding: 0;
+}
+input {
+  cursor: pointer;
+  width: 27rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  border: hsl(229, 24%, 87%) solid 2px;
+  padding-left: 1rem;
+}
+
+input:focus {
+  border-color: hsl(213, 96%, 18%);
+  outline: none;
+  color: hsl(213, 96%, 18%);
+  font-weight: bold;
+}
+.data p {
+  color: hsl(213, 96%, 18%);
+}
+
+.nextButton {
+  cursor: pointer;
+  border-radius: 7px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: hsl(213, 96%, 18%);
+  color: hsl(231, 100%, 99%);
+  position: absolute;
+  right: 7rem;
+}
